@@ -28,23 +28,21 @@ Para executar este projeto localmente, siga as instruções abaixo:
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. Acesse o diretório do projeto:
-
-  ```bash
+   ```bash
   cd seu-repositorio
-
+  ```
 3. Crie um ambiente virtual (opcional, mas recomendado):
    ```bash
 python -m venv env
 source env/bin/activate  # Para Linux/Mac
 .\env\Scripts\activate  # Para Windows
-
+```
 4. Instale as dependências listadas no arquivo requirements.txt:
   ```bash
 pip install -r requirements.txt
-
+```
 Caso não tenha o arquivo requirements.txt, instale as bibliotecas manualmente:
-
 ```bash
 pip install pandas numpy plotly yfinance
-
+```
 
