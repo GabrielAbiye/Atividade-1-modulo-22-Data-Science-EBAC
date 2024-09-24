@@ -31,12 +31,14 @@ Para executar este projeto localmente, siga as instruções abaixo:
    ```bash
   cd seu-repositorio
   ```
+
 3. Crie um ambiente virtual (opcional, mas recomendado):
    ```bash
 python -m venv env
 source env/bin/activate  # Para Linux/Mac
 .\env\Scripts\activate  # Para Windows
 ```
+
 4. Instale as dependências listadas no arquivo requirements.txt:
   ```bash
 pip install -r requirements.txt
